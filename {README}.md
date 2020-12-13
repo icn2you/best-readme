@@ -1,198 +1,268 @@
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo_name, twitter_handle, email, project_title, project_description
--->
+<!--*******************************************************************
+  FSWD:  Christopher B. Zenner
+  Date:  12/12/2020
+  File:  {README}.md
+  Ver.:  1.0.0 20201220
 
+  The original template for this README was forked from [othneildrew/Best-README-Template](https://github.com/othneildrew/Best-README-Template). Thanks to [Othneil Drew](https://www.othneildrew.com/) for an excellent template. I have revised it extensively for my own use. Any shortcomings are solely mine.
 
+  To avoid retyping too much info, do a search and replace the following:
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+  - %PROJ-NAME%
+  - %REPO-NAME%
 
-
+*********************************************************************-->
 
 <!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+<div align="center">
 
-  <h3 align="center">project_title</h3>
+![%PROJ-NAME% Logo][proj-logo]
 
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  </p>
-</p>
+# %PROJ-NAME%
 
+[![GitHub Issues][issues-shield]][issues-url]
+![Snyk Vulnerabilities][vulnerabilities-shield]
+![React Version][software-shield]
+[![MIT License][license-shield]][license-url]
+![CodeFactor Grade][codefactor-shield]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
+_An app that ..._
+
+[View Demo](#usage) · [Report Bug][issues-url]
+
+</div>
+
+<br>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
+
+<summary>
+
+## Table of Contents
+
+</summary>
+
+1. [About the Project](#about-the-project)
+    - [Built With](#built-with)
+2. [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+3. [Usage](#usage)
+4. [Roadmap/To-do List](#roadmap)
+5. [Contributing](#contributing)
+    - [Issues](#issues)
+6. [License](#license)
+7. [Release History](#release-history)
+8. [Get Help](#get-help)
+9. [Acknowledgements](#acknowledgements)
+
 </details>
 
+## About the Project
 
+<div align="center">
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+![%PROJ-NAME% Screenshot][proj-shot]
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+</div>
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+<div align="justify">
 
+%PROJ-NAME% is a %PROJ-SUMM%
+
+</div>
 
 ### Built With
 
-* []()
-* []()
-* []()
+%PROJ-NAME% is built with ...
 
-
+[![HTML5][html5-logo]][html5-link]
+[![CSS3][css3-logo]][css3-link]&nbsp;&nbsp;
+[![Sass][sass-logo]][sass-link]&nbsp;&nbsp;
+[![JS][js-logo]][js-link]&nbsp;&nbsp;
+[![SQL][sql-logo]][sql-link]&nbsp;&nbsp;
+[![jQuery][jquery-logo]][jquery-link]
+[![MongoDB][mongodb-logo]][mongodb-link]&nbsp;&nbsp;
+[![Express][express-logo]][express-link]&nbsp;&nbsp;
+[![React][react-logo]][react-link]&nbsp;&nbsp;
+[![Nodejs][nodejs-logo]][nodejs-link]&nbsp;&nbsp;
+[![Bootstrap][bootstrap-logo]][bootstrap-link]
+[![Handlebars][hbs-logo]][hbs-link]
+[![Material-UI][materialui-logo]][materialui-link]&nbsp;&nbsp;
+[![Firebase][firebase-logo]][firebase-link]&nbsp;&nbsp;
+[![MySQL][mysql-logo]][mysql-link]&nbsp;&nbsp;
+[![Atom][atom-logo]][atom-link]&nbsp;&nbsp;
+[![VSCode][vscode-logo]][vscode-link]&nbsp;&nbsp;
+[![GitHub][github-logo]][github-link]
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+To install and run a local copy of %PROJ-NAME%, follow these simple steps:
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Install the latest version of npm.
+
   ```sh
   npm install npm@latest -g
   ```
 
 ### Installation
 
-1. Clone the repo
+1. Clone the repository (repo).
+
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/icn2you/%REPO-NAME%.git
    ```
-2. Install NPM packages
+
+2. Install the necessary packages.
+
    ```sh
    npm install
    ```
 
+3. Launch the app.
 
+   ```sh
+   npm run start
+   ```
 
-<!-- USAGE EXAMPLES -->
+<!-- USAGE EXAMPLE(S) -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<div align="center">
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+![%PROJ-NAME% Demo][proj-demo]
 
+</div>
 
+<!-- ROADMAP/TO-DO LIST -->
+## Roadmap/To-do List
 
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
-
-
+See the [open issues][issues-url] for a list of proposed features as well as any known issues.
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Fork the project.
 
+2. Create your feature branch.
 
+   ```sh
+   git checkout -b feature/amazing-feature
+   ```
+
+3. Commit your changes.
+
+   ```sh
+   git commit -m 'feat(scope): add amazing feature'
+   ```
+
+4. Push to the branch.
+
+   ```sh
+   git push origin feature/amazing-feature
+   ```
+
+5. Open a pull request.
+
+### Issues
+
+In case of a bug report or bug fix, please feel free to [open an issue][issues-url].
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+This project is distributed under the [MIT License][license-url].
 
+## Release History
 
+|Version|Description                       |
+|-------|----------------------------------|
+|0.x    |...                               |
+|1.0    |...                               |
+|x.x    |...                               |
 
-<!-- CONTACT -->
-## Contact
+<!-- GET HELP -->
+## Get Help
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-
+Contact me at [christopher.zenner@icn2you.com][pers-email].
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+- [Freepik][freepik-url] (project icon)
+- [The Coding Boot Camp @ UCLA Extension][bootcamp-url]
+- ...
 
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
+<!-- URLS -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/github_username
+
+<!-- Shields -->
+[issues-shield]: https://img.shields.io/github/issues/icn2you/%REPO-NAME%?style=flat-square
+[vulnerabilities-shield]: https://img.shields.io/snyk/vulnerabilities/github/icn2you/%REPO-NAME%?style=flat-square
+[software-shield]: https://img.shields.io/badge/react-v16.x.x-61dafb.svg?style=flat-square
+[license-shield]: https://img.shields.io/github/license/icn2you/%REPO-NAME%?style=flat-square
+[codefactor-shield]: https://img.shields.io/codefactor/grade/github/icn2you/%REPO-NAME%?style=flat-square
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077b5.svg?style=flat-square&logo=linkedin
+
+<!-- Shield Links -->
+[issues-url]: https://github.com/icn2you/%REPO-NAME%/issues
+[license-url]: https://github.com/icn2you/%REPO-NAME%/blob/master/LICENSE
+[linkedin-url]: https://www.linkedin.com/in/icn2you/
+
+<!-- Project Links -->
+[proj-logo]: ../assets/images/...
+[proj-shot]: ../assets/images/...
+[proj-demo]: ../assets/videos/...
+
+[pers-email]: mailto:christopher.zenner@icn2you.com
+
+<!-- Web Technology Logos -->
+[html5-logo]: ./assets/proj/img/dev/logos/html5-logo-64.png
+[css3-logo]: ./assets/proj/img/dev/logos/css3-logo-64.png
+[sass-logo]: ./assets/proj/img/dev/logos/sass-seal-64.png
+[js-logo]: ./assets/proj/img/dev/logos/javascript-logo-64.png
+[jquery-logo]: ./assets/proj/img/dev/logos/jquery-logo-clear-64.png
+[sql-logo]: ./assets/proj/img/dev/logos/sql-logo-64.png
+[mongodb-logo]: ./assets/proj/img/dev/logos/mongodb-leaf-64.png
+[express-logo]: ./assets/proj/img/dev/logos/express-logo-64.png
+[react-logo]: ./assets/proj/img/dev/logos/react-logo-64.png
+[nodejs-logo]: ./assets/proj/img/dev/logos/nodejs-logo-64.png
+[bootstrap-logo]: ./assets/proj/img/dev/logos/bootstrap5-logo-64.png
+[hbs-logo]: ./assets/proj/img/dev/logos/handlebars-logo-clear-64.png
+[materialui-logo]: ./assets/proj/img/dev/logos/material-ui-logo-64.png
+[firebase-logo]: ./assets/proj/img/dev/logos/firebase-logo-stack-64.png
+[mysql-logo]: ./assets/proj/img/dev/logos/mysql-logo-64.png
+[atom-logo]: ./assets/proj/img/dev/logos/atom-logo-64.png
+[vscode-logo]: ./assets/proj/img/dev/logos/vscode-logo-64.png
+[github-logo]: ./assets/proj/img/dev/logos/github-mark-64.png
+
+<!-- Web Technology Links -->
+[html5-link]: https://html.spec.whatwg.org/
+[css3-link]: https://www.w3.org/Style/CSS/
+[sass-link]: https://sass-lang.com/
+[js-link]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[sql-link]: https://www.iso.org/standard/63555.html
+[jquery-link]: https://jquery.com/
+[mongodb-link]: https://www.mongodb.com/1
+[express-link]: https://expressjs.com/
+[react-link]: https://reactjs.org/
+[nodejs-link]: https://nodejs.org/
+[bootstrap-link]: https://getbootstrap.com/
+[hbs-link]: https://handlebarsjs.com/
+[materialui-link]: https://material-ui.com/
+[firebase-link]: https://firebase.google.com/
+[mysql-link]: https://dev.mysql.com/
+[atom-link]: https://atom.io/
+[vscode-link]: https://code.visualstudio.com/
+[github-link]: https://github.com/
+
+<!-- Acknowledgement Links -->
+[bootcamp-url]: https://bootcamp.uclaextension.edu/coding/
+[freepik-url]: https://www.flaticon.com/authors/freepik
